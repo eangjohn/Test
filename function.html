@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Welcome to javascript Function</h1>
+	<p id="demo">A first paragraph.</p>
+	<button type="button" Onclick="myfunction()">Click here!</button>
+	<script type="text/javascript">
+		function myfunction(){
+			document.getElementById('demo').innerHTML="This is a paragraph that display after youi Click on button!";
+		}
+	</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button onclick="myfunction('John,Theary','Student')">First Click</button>
+	<button onclick="myfunction('Daneth','Teacher')">Second Click</button>
+	<script type="text/javascript">
+		function myfunction(name,job){
+			alert("Your name"+name+"Your Job"+job+",");
+		}
+	</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function(a,b,c){
+			return a*b*c;
+		}
+		var x=myfunction(4,6,8)
+		alert(x);
+	</script>
+</body>
+</html>
